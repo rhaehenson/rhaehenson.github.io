@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+      function myFunction() {
+        var pic = document.getElementById("Jack");
+        var words = document.getElementById("welcome");
+        words.innerHTML="Here's me not with Jack";
+        
+        if (pic.src.match(
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="welcome">Here's me with Jack Dorsey</h1>  
+    <button id="btn" onclick="myFunction()">Click me!</button>
+    <img id="Jack" src="jack.jpg" alt="twitter.aviator.jpg"></img>
+    
+  </body>
+</html>
